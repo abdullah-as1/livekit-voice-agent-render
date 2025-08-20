@@ -1,0 +1,11 @@
+# Requirements for Twilio Bridge deployment
+# This is a minimal set for just the bridge (not the full agent)
+
+fastapi>=0.100.0
+uvicorn>=0.23.0
+websockets>=11.0
+twilio>=8.0.0
+livekit-api>=0.5.0
+livekit-rtc>=0.8.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.20
