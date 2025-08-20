@@ -2,10 +2,5 @@ services:
   - type: web
     name: livekit-voice-agent
     env: python
-    region: oregon
-    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python twilio_cloud_bridge.py
-    healthCheckPath: /health
-    # Environment variables will be set through Render dashboard
-    # for security reasons
